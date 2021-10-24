@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ResetFragment"
+    android:background="@drawable/back_home"
+    android:id="@+id/relativeLayout6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/back_register"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="50sp"
+                    android:text="@string/reset"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="casual"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="100dp"
+                android:layout_below="@id/linearLayout1">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_edittext"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0dp"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="20dp"
+                    android:textSize="15sp"
+                    android:padding="13dp"
+                    android:textColor="#888887"
+                    android:drawableLeft="@drawable/email"
+                    android:drawablePadding="13dp"
+                    android:elevation="3dp"
+
+
+                    />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/ResetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/btn_register"
+                android:text="@string/reset"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@id/relativeLayout1"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

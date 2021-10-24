@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1056575187106",
+    "firebase_url": "https://goff-77870-default-rtdb.firebaseio.com",
+    "project_id": "goff-77870",
+    "storage_bucket": "goff-77870.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056575187106:android:864d38f0338af880688ffb",
+        "android_client_info": {
+          "package_name": "com.bochra.goff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056575187106-82cann30hjpthkffl3lj3gab6058hi4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPw3CIszD4QdLk9Oqmdie7MBRWY0tDYhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056575187106-82cann30hjpthkffl3lj3gab6058hi4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
